@@ -1,0 +1,37 @@
+.hero {
+	color: #fff;
+	overflow: hidden;
+	height: 90vh;
+	width: 100%;
+	background: url(../img/background.jpeg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.hero__overlay {
+	width: 100%;
+	background-color: rgba(90, 86, 101, 0.6);
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border: 1px solid #FFF;
+}
+
+.hero__title {
+	font: 800 2.625rem/.9 'Open Sans', sans-serif; /* 42px */
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: -2px;
+	margin: 0;
+}
+
+.hero__caption {
+	font: 200 1.625rem/.9 'Open Sans', sans-serif; /* 42px */
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: -2px;
+	margin: 0;
+}

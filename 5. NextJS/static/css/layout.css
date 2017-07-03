@@ -1,0 +1,42 @@
+html {
+	font: 300 16px/1.5 'Source Sans Pro', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	min-height: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: #5a5665;
+}
+body {
+	min-height: 100%;
+	height: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+::-moz-selection {
+	background: rgb(255,89,101);
+	color: #fff;
+}
+::selection {
+	background: rgb(255,89,101);
+	color: #fff;
+}
+:focus {
+	outline-color: #ff5964;
+}
+.wrap {
+	width: 90%;
+	max-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+}
+@media screen and (max-width: 1023px) {
+	body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.block {
+		padding: 6rem 0;
+	}
+	.br--mobile {display: none;}
+}

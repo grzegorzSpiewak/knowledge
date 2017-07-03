@@ -1,0 +1,42 @@
+.menu {
+  font-size: 1.125rem; /* 18px */
+  padding: 0.25rem;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+.menu__logo {
+	display: inline-block;
+  background: url(../img/Times-logo.png) no-repeat;
+  background-size: contain;
+	width: 240px;
+	height: 80px;
+}
+
+.menu__home {
+  width: 40px;
+	height: 40px;
+  background: url(../img/search.png) no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.menu__menubar {
+  display: inline-block;
+  float: right;
+  padding-top: 1.6rem;
+}
+
+.menu__list {
+	margin: 0;
+	padding: 0;
+}
+.menu__item {
+	list-style: none;
+	text-align: right;
+}
+.menu__link {
+	text-decoration: none;
+	color: #938e9f;
+}

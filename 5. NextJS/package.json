@@ -1,0 +1,25 @@
+{
+  "name": "news_app",
+  "version": "1.0.0",
+  "description": "Free Times Api share news app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "GrzegorzSpiewak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "next": "^3.0.1-beta.1",
+    "nprogress": "^0.2.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2"
+  }
+}

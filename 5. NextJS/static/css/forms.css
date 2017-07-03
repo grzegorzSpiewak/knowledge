@@ -1,0 +1,44 @@
+.form {
+	text-align: center;
+	padding: 2rem 0;
+	width: 100%;
+}
+
+.form__date {
+	background-color: #f5f4f7;
+	text-align: left;
+	width: 280px;
+	height: 53px;
+	padding: 0 1em;
+	border: none;
+	cursor: pointer;
+}
+.form__date:focus {
+	outline-color: #ff2800;
+	color: #09090a;
+}
+.form__date::placeholder {
+	color: #09090a;
+}
+
+.form__btn {
+	font: bold 1rem Raleway, sans-serif; /* 16px */
+	text-transform: uppercase;
+	width: 142px;
+	height: 53px;
+	border: none;
+	color: #fff;
+	background-color: #ff2800;
+	border-radius: 2px;
+	transition: background-color .3s ease-out;
+}
+.form__btn:hover {
+	background-color: #ff727b;
+}
+
+::-webkit-datetime-edit-month-field { color: #09090a; }
+::-webkit-datetime-edit-day-field { color: #09090a; }
+::-webkit-datetime-edit-year-field { color: #09090a; }
+::-webkit-calendar-picker-indicator { background: #ff2800; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-datetime-edit-text { color: #09090a; }
